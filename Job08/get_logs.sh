@@ -6,10 +6,10 @@ current_date=$(date +"%d-%m-%Y-%H:%M")
 # Chemin du fichier de logs à analyser 
 log_file="/var/log/auth.log"
 # Chemin complet du fichier de sauvegarde
-backup="$HOME/Job8/Backup"
+backup="/home/kamelia/shell-exe/Job08/Backup"
 
 # Créez le répertoire de sauvegarde 
-mkdir -p ~/Job8/Backup
+mkdir -p /home/kamelia/shell-exe/Job08/Backup
 
 # Nom du fichier de sauvegarde avec la date
 backup_file="$backup/number_connection-$current_date.tar"
