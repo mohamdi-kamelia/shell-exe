@@ -1,17 +1,15 @@
-#!/bin/bash
 
-# Vérifier le nombre d'arguments
+
+
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <chiffre1> <opération> <chiffre2>"
     exit 1
 fi
-
-# Récupérer les arguments
 chiffre1="$1"
 operation="$2"
 chiffre2="$3"
 
-# Utiliser une instruction conditionnelle pour effectuer l'opération appropriée
+# Une instruction conditionnelle pour effectuer l'opération appropriée
 resultat=0
 
 case "$operation" in
@@ -37,6 +35,5 @@ case "$operation" in
         ;;
 esac
 
-# Afficher le résultat
 echo "Résultat : $resultat"
 
